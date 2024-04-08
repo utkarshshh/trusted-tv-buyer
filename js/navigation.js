@@ -19,6 +19,7 @@ function showPage(pageId) {
         initRoomBrightnessPage();
     } else if (pageId === 'content-usage-page') {
         initContentUsagePage();
+    } else if (pageId === 'results-page') {
+        initResultsPage();
     }
-    // Add more conditions for other pages as needed
 }

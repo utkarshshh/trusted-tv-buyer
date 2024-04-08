@@ -57,6 +57,8 @@ function initContentUsagePage() {
 function processContentUsage() {
     const selectedContentTypes = Array.from(document.querySelectorAll('.content-option input[type="checkbox"]:checked'))
         .map(checkbox => checkbox.value);
+    
+    localStorage.setItem('selectedContentTypes', selectedContentTypes);
     // Process the selected content types (e.g., store them for later use)
     console.log('Selected Content Types:', selectedContentTypes);
 }

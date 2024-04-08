@@ -63,6 +63,7 @@ function updateDistanceValue() {
 function processViewingDistance() {
     const slider = document.querySelector('.slider');
     const viewingDistance = parseInt(slider.value);
+    localStorage.setItem('viewingDistance', viewingDistance);
     // Process the viewing distance value (e.g., store it for later use)
     console.log('Viewing Distance:', viewingDistance);
 }

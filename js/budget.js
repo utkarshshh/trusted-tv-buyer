@@ -100,6 +100,7 @@ function processBudget() {
     const slider = document.querySelector('.budget-slider'); // Use the unique class for the budget slider
     const budgetInThousands = parseInt(slider.value);
     const budget = budgetInThousands * 1000;
+    localStorage.setItem('budget', budget);
     // Process the budget value (e.g., store it for later use)
     console.log('Budget:', budget);
 }

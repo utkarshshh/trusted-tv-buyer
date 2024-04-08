@@ -90,6 +90,7 @@ function updateRoomBrightness() {
 function processRoomBrightness() {
     const slider = document.querySelector('.brightness-slider');
     const brightnessValue = parseInt(slider.value);
+    localStorage.setItem('brightnessValue', brightnessValue);
     // Process the room brightness value (e.g., store it for later use)
     console.log('Room Brightness:', brightnessValue);
 }
