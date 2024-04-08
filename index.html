@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TV Buying Guide</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/welcome.css">
+    <link rel="stylesheet" href="css/viewing_distance.css">
+    <link rel="stylesheet" href="css/budget.css">
+    <link rel="stylesheet" href="css/room_brightness.css">
+    <link rel="stylesheet" href="css/content_usage.css">
+    <link rel="stylesheet" href="css/results.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="app">
+        <div id="welcome-page" class="page-container"></div>
+        <div id="viewing-distance-page" class="page-container"></div>
+        <div id="budget-page" class="page-container"></div>
+        <div id="room-brightness-page" class="page-container"></div>
+        <div id="content-usage-page" class="page-container"></div>
+        <div id="results-page" class="page-container"></div>
+    </div>
+
+    <script src="js/data.js"></script>
+    <script src="js/navigation.js"></script>
+    <script src="js/welcome.js"></script>
+    <script src="js/viewing_distance.js"></script>
+    <script src="js/budget.js"></script>
+    <script src="js/room_brightness.js"></script>
+    <script src="js/content_usage.js"></script>
+    <script src="js/results.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+      // Load the welcome page on page load
+      document.addEventListener('DOMContentLoaded', function() {
+          initWelcomePage();
+      });
+  </script>
+</body>
+</html>

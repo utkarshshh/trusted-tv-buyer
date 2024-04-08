@@ -1,0 +1,20 @@
+{
+  "tvs": [
+    {
+      "id": 1,
+      "brand": "Samsung",
+      "model": "QN90A",
+      "size": 55,
+      "resolution": "4K",
+      "displayType": "QLED",
+      "price": 1299,
+      "brightRoom": true,
+      "darkRoom": false,
+      "sports": true,
+      "gaming": true,
+      "movies": true,
+      "tvShows": true,
+      "url": "https://example.com/samsung-qn90a"
+    }
+  ]
+}

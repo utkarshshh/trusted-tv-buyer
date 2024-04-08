@@ -1,0 +1,13 @@
+.tv-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.tv-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
